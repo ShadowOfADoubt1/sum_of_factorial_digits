@@ -11,3 +11,8 @@ The program takes a whole number, calculates its factorial and sums the digits o
 3. IntToString(int_input): converts a integer to string without casting
     
 4. SeperateDigits(str_input): seperates the given string into an array of its characters and converts them to integers without casting
+
+**How it works**
+1. sum_of_factorials_digits.py
+
+2. Dockerfile 
