@@ -23,6 +23,8 @@ Dockerfile is used to create the Docker container. It establishes the version of
     b) Build Docker container by running **sudo docker build -t factorial-digits work_directory**
     c) Then run **sudo docker run --rm factorial-digits whole_number_argument** to get a result
 3. From git:
-    a) Clone or copy git repo
-    b)
+    a) Clone or download git repo
+    b) Extract repo if you downloaded it as a zip file into a work directory
+    c) Build Docker container by running **sudo docker build -t factorial-digits work_directory**
+    d) Then run **sudo docker run --rm factorial-digits whole_number_argument** to get a result
 
