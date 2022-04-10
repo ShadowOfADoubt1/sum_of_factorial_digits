@@ -18,4 +18,11 @@ The sum_of_factorial_digits.py is the python script that takes a given whole num
 Dockerfile is used to create the Docker container. It establishes the version of python that should be used and adds the given python script. After that it installs the neccesary dependencies and runs **python3 ./sum_of_factorial_digits.py whole_number_argument**. This will return the expected outcome.
 
 **How to run it:**
+1. From tarball:
+    a) Extract tarball into a work directory
+    b) Build Docker container by running **sudo docker build -t factorial-digits work_directory**
+    c) Then run **sudo docker run --rm factorial-digits whole_number_argument** to get a result
+3. From git:
+    a) Clone or copy git repo
+    b)
 
