@@ -13,7 +13,7 @@ def SumOfDigits(
     return int_digits_sum
 
 
-def StringToInt(
+def StrToInt(
                 str_input):
     """Takes a string and converts it to an integer without type casting"""
     ary_int = numpy.array(str_input, dtype=int)
