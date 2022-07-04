@@ -20,7 +20,7 @@ def StrToInt(
     return ary_int
 
 
-def IntToString(
+def IntToStr(
                 int_input):
     """Takes a integer and converts it to a string without type casting"""
     ary_string = numpy.array([int_input], dtype=str)
